@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int b;
+   string a[10]={"Greater than 9","one","two","three","four","five","six","seven","eight","nine"};
+   cin>>b;
+    if(b>9){
+        cout<<a[0];
+    }
+    else{
+        cout<<a[b];
+    }
+ 
+    
+   
+}
